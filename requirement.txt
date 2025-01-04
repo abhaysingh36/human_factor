@@ -1,0 +1,9 @@
+flask==2.2.5
+torch==2.0.1
+opencv-python==4.8.0.76
+numpy==1.24.2
+RPi.GPIO==0.7.1
+flask-socketio==5.3.3  # Optional if you want WebSocket-based communication later
+eventlet==0.33.3       # Required for Flask-SocketIO
+pyserial==3.5
+scipy==1.11.0          # For PID and EKF implementations
